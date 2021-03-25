@@ -1,5 +1,5 @@
 import telebot
-API_TOKEN = '1686869327:AAGuBtD0m7ApdkbgxFuLEHxEDy65IIuuEG0'
+API_TOKEN = 'xxx:yyy'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
@@ -20,4 +20,4 @@ def echo_all(message):
 
 bot.polling()
 
-https://api.telegram.org/bot1686869327:AAGuBtD0m7ApdkbgxFuLEHxEDy65IIuuEG0/sendMessage?chat_id=-1001416637552&text=123
+https://api.telegram.org/botxxx:yyy/sendMessage?chat_id=-100xxx&text=123
